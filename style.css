@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/*----------------------Custom Scroll Bar---------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #302f2f;
+}
+/*----------------------SCustom Scroll bar---------------*/
+
+
+
+
+/*----------------------Skewed Backgrounds---------------*/
+.skew-1 {
+  background:#cc2341;
+  position: relative;
+}
+.skew-2 {
+
+  background:#992237 ;
+  position: relative;
+  max-width: 100%;
+}
+.skew-2::before {
+  height:100px;
+  background: #992237;
+  position: absolute;
+  content:"";
+  top:-50px;
+  left:0;
+  width:50%;
+  transform: skewY(6deg);
+}
+.skew-2::after{
+  height: 100px;
+  background:#992237 ;
+  position: absolute;
+  content:"";
+  top:-50px;
+  right:0;
+  width:50%;
+  transform: skewY(-6deg);
+}
+.skew-3 {
+  background:  #cc2341;
+  position: relative;
+  max-width: 100%;
+}
+.skew-3::before {
+  height:100px;
+  background: #cc2341;
+  position: absolute;
+  content:"";
+  top:-50px;
+  left:0;
+  width:50%;
+  transform: skewY(6deg);
+}
+.skew-3::after {
+  height:100px;
+  background:#cc2341;
+  position: absolute;
+  content:"";
+  top:-50px;
+  right:0;
+  width:50%;
+  transform: skewY(-6deg);
+}
+.skew-4 {
+    background: #992237;
+    position: relative;
+  }
+  .skew-4::before {
+    height:100px;
+    background:#992237;
+    position: absolute;
+    content:"";
+    top:-50px;
+    left:0;
+    width:50%;
+    transform: skewY(6deg);
+  }
+  .skew-4::after {
+    height:100px;
+    background:#992237;
+    position: absolute;
+    content:"";
+    top:-50px;
+    right:0;
+    width:50%;
+    transform: skewY(-6deg);
+  }
+/*----------------------Skewed Backgrounds---------------*/
+
+
+
+
+/*----------------------Navbar---------------*/
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+
+.nav-it {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+nav  {
+  background:  #992237;
+}
+nav.main-nav .nav-item {
+transition: background 0.8s;
+margin: 0 7px;
+}
+nav.main-nav .nav-item:hover {
+  background: #cc2341;
+}
+.nav-link {
+font-family: 'Ruda', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+/*----------------------Navbar---------------*/
+
+
+
+
+/*----------------------section2(proposal - section)---------------*/
+
+.prop {
+  margin-top: 69px;
+  color: white;
+    margin-left: 10px;
+margin-right: 10px;
+}
+.prop h1 {
+  text-align: center;
+  font-size: 8vw;
+  margin-bottom: 20px;
+  font-family: 'Ruda', sans-serif;
+}
+.prop p {
+
+  margin: 0 10px;
+  font-size: 1.5rem;
+  margin-bottom: 160px;
+  text-align: justify;
+  font-family: 'News Cycle', sans-serif;
+}
+/*----------------------section2(proposal - section)---------------*/
+
+
+
+
+/*----------------------section3(Curriculum - section)---------------*/
+.prop-1 {
+  margin-top: 69px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.prop-1 h1 {
+  text-align: center;
+    font-family: 'Ruda', sans-serif;
+      font-size: 8vw;
+}
+.prop-1 p {
+    font-size: 1.5rem;
+      margin: 0 10px;
+      text-align: justify;
+      font-family: 'News Cycle', sans-serif;
+}
+.space-2 {
+  margin-bottom: 180px;
+}
+/*----------------------section3(Curriculum - section)---------------*/
+
+
+
+
+/*----------------------section4(Requirements - section)---------------*/
+.prop-2 {
+  margin-top: 68px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+
+}
+.prop-2 h1 {
+  text-align: center;
+    font-family: 'Ruda', sans-serif;
+      font-size: 8vw;
+}
+.prop-2 p {
+    font-size: 1.5rem;
+      margin: 0 10px;
+      text-align: justify;
+      font-family: 'News Cycle', sans-serif;
+}
+.space-4 {
+  height: 1px;
+  display: block;
+  margin-bottom: 70px;
+}
+/*----------------------section4(Requirements - section)---------------*/
+
+
+
+
+/*----------------------section4(footer - section)---------------*/
+.footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+/*----------------------section4(footer - section)---------------*/
+
+
+
+/*----------------------section1(logo - section)---------------*/
+.mincode {
+  text-align: center;
+  font-size: 4vw;
+font-family: 'Anonymous Pro', monospace;
+
+}
+
+.mincode-top{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 12vw;
+  font-family: 'Anonymous Pro', monospace;
+}
+.space {
+  margin-bottom: 80px;
+}
+.image a img {
+  width: 15vw;
+  transition: width 0.4s;
+}
+.image a img:hover {
+  width: 16vw;
+}
+.image {
+  padding-top: 40px;
+  padding-bottom: 0px;
+text-align: center;
+}
+
+/*----------------------section1(logo - section)---------------*/
+
+
+
+
+/*----------------------Responsiveness(Media queries)---------------*/
+@media only screen and (max-width: 600px) {
+  .prop h1 {
+    font-size: 24vw;
+
+  }
+  .prop-1 h1 {
+    font-size: 19vw;
+
+  }
+  .prop-2 h1 {
+    font-size: 15vw;
+
+  }
+  .prop p {
+    font-size: 1.2rem;
+
+  }
+  .prop-1 p {
+    font-size: 1.2rem;
+
+  }
+  .prop-2 p {
+    font-size: 1.2rem;
+  }
+  .mincode-top {
+    font-size: 14vw;
+  }
+  .mincode {
+    font-size: 7vw;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .prop h1 {
+    font-size: 24vw;
+
+  }
+  .prop-1 h1 {
+    font-size: 19vw;
+
+  }
+  .prop-2 h1 {
+    font-size: 18vw;
+
+  }
+  .mincode-top {
+    font-size: 14vw;
+  }
+  .mincode {
+    font-size: 7vw;
+  }
+  .image a img {
+    width: 25vw;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .prop h1 {
+    font-size: 18vw;
+
+  }
+  .prop-1 h1 {
+    font-size: 18vw;
+
+  }
+  .prop-2 h1 {
+    font-size: 16vw;
+
+  }
+  .mincode-top {
+    font-size: 14vw;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .prop h1 {
+    font-size: 16vw;
+
+  }
+  .prop-1 h1 {
+    font-size: 16vw;
+
+  }
+  .prop-2 h1 {
+    font-size: 14vw;
+
+  }
+  .mincode-top {
+    font-size: 14vw;
+  }
+}
+@media only screen and (max-width:400px){
+  .image a img {
+    width: 30vw;
+  }
+}
+@media only screen and (max-width:800px){
+  .image a img {
+    width: 20vw;
+  }
+}
+/*----------------------Responsiveness(Media queries)---------------*/
